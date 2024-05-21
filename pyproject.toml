@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "url-extractor"
+version = "0.1.0"
+description = "This is a URL extractor that can be used to help facilitate site enumeration where URLs are the objective."
+authors = ["BananaWolf93 <christopherkentleal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.2"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
